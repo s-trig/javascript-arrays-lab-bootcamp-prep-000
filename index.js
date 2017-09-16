@@ -9,6 +9,6 @@ var kittens = ['k1', 'k2', 'k3']
  }
 
 function destructivelyPrependKitten(name) {
-  kittens.pop(name)
+  kittens.unshift(name)
   return kittens
 }
