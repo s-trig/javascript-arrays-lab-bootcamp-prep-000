@@ -17,3 +17,8 @@ var kittens = ['k1', 'k2', 'k3']
   kittens.pop(name)
   return kittens
 }
+
+  function destructivelyRemoveFirstKitten(name) {
+    kittens.shift(name)
+    return kittens
+  }
