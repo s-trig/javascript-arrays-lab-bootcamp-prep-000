@@ -26,5 +26,5 @@ var kittens = ['k1', 'k2', 'k3']
   function appendKitten(name) {
     const newar = kittens.push(name)
     return newar
-    
+
   }
