@@ -20,7 +20,6 @@
   }
 
   function appendKitten(name) {
-    const newar = kittens.push(name)
-    return newar
+    return [...kittens, name]
 
   }
