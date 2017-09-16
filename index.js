@@ -7,3 +7,8 @@ var kittens = ['k1', 'k2', 'k3']
    kittens.push(name)
    return kittens
  }
+
+function destructivelyPrependKitten(name) {
+  kittens.pop(name)
+  return kittens
+}
